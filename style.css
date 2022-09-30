@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     transition: 1s;
-    overflow: hidden;
+    display: flex;
 }
 
 body.light {
@@ -76,3 +76,4 @@ button {
     font-weight: 500;
     font-size: 35px;
 }
+
