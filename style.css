@@ -22,14 +22,8 @@ body {
     transition: 1s;
     display: flex;
     overflow-y: scroll;
-        /* We need scroll-y */
-        overflow-x: hidden;
-        /* this is ok */
-        /* most browsers understand this */
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        -ms-transition: all .3s;
-        -o-transition: all .3s;
+    overflow-x: hidden;
+
 
 }
 
@@ -69,8 +63,8 @@ button {
 }
 
 .profile-picture {
-    margin-top: 20%;
-    width: auto;
+    margin-top: 30%;
+    width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 50%;
