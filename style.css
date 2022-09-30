@@ -21,8 +21,16 @@ body {
     flex-direction: column;
     transition: 1s;
     display: flex;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+        /* We need scroll-y */
+        overflow-x: hidden;
+        /* this is ok */
+        /* most browsers understand this */
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+
 }
 
 body.light {
