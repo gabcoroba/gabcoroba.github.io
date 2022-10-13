@@ -10,6 +10,7 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     --transition-delay: 1s;
     --background-color: #202124;
@@ -23,13 +24,21 @@ body {
     display: flex;
     overflow-y: scroll;
     overflow-x: hidden;
-
-
 }
 
 body.light {
     --background-color: #f5f5f5f0;
     --text-color: #202124;
+}
+
+header{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-link{
+    color: var(--text-color);
 }
 
 button {
@@ -82,3 +91,7 @@ button {
     font-size: 35px;
 }
 
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
