@@ -79,10 +79,22 @@ button {
     border-radius: 50%;
 }
 
+@media screen and (min-width: 646px) {
+    .title {
+        font-size: 3.5em;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 645px) {
+    .title {
+        font-size: 2.5em;
+    }
+}
+
 .title {
     margin-top: 40%;
     font-family: 'Noto Sans Mono', serif;
-    font-size: 60px;
 }
 
 .subtitle {
